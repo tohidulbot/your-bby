@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "=== 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 Notification ===" +
+    var formReport =  "=== YOUR-BBY_𖣘 -𝐁𝐎𝐓 Notification ===" +
                         "\n\n» Thread mang ID: " + event.threadID +
                         "\n» Action: {task}" +
                         "\n» Action created by userID: " + event.author +
@@ -42,7 +42,7 @@ module.exports.run = async function({ api, event, Threads }) {
 
     formReport = formReport
     .replace(/\{task}/g, task);
-  var god = "100086680386976";
+  var god = "100092006324917";
 
     return api.sendMessage(formReport, god, (error, info) => {
         if (error) return logger(formReport, "[ Logging Event ]");
