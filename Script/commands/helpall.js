@@ -135,9 +135,12 @@ module.exports.run = function ({
     var _0x316826 = ["https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif", "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif", "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif", "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif", "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif", "https://i.imgur.com/ybM9Wtr.jpeg", "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif"];
     var _0x23cd20 = () => _0x64d666.sendMessage({
       'body': "╭──────•◈•──────╮\n | 𝚈𝙾𝚄𝚁 𝙱𝙱𝚈 ❤️‍🩹💋 \n | 🄲🄾🄼🄼🄰🄽🄳 🄻🄸🅂🅃 \n╰──────•◈•──────╯\n\n" + _0x1d56bd + _0x217452,
-      'attachment': _0x314439.createReadStream(__dirname +")
-    }, _0x1e7ccd.threadID, () => _0x314439.unlinkSync(__dirname + ""), _0x1e7ccd.messageID);
-    return _0x33b740(encodeURI(_0x316826[Math.floor(Math.random() * _0x316826.length)])).pipe(_0x314439.createWriteStream(__dirname + "")).on("close", () => _0x23cd20());
+      'attachment': _0x314439.createReadStream(__dirname +"/cache
+/dsdsf.jpg")
+    }, _0x1e7ccd.threadID, () => _0x314439.unlinkSync(__dirname + "/cache
+/dsdsf.jpg"), _0x1e7ccd.messageID);
+    return _0x33b740(encodeURI(_0x316826[Math.floor(Math.random() * _0x316826.length)])).pipe(_0x314439.createWriteStream(__dirname + "/cache
+/dsdsf.jpg")).on("close", () => _0x23cd20());
   }
   const _0x1569fc = _0x272a7d("moduleInfo", _0x5e13e8.config.name, _0x5e13e8.config.description, '' + (_0x5e13e8.config.usages ? _0x5e13e8.config.usages : ''), _0x5e13e8.config.commandCategory, _0x5e13e8.config.cooldowns, _0x5e13e8.config.hasPermssion == 0 ? _0x272a7d("user") : _0x5e13e8.config.hasPermssion == 1 ? _0x272a7d("adminGroup") : _0x272a7d("adminBot"), _0x5e13e8.config.credits);
   var _0x316826 = ["https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif"];
