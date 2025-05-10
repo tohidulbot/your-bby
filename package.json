@@ -4,7 +4,7 @@
   "description": "made by 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_☢️",
   "main": "Cyber.js",
   "engines": {
-      "node": "18.x",
+      "node": "20.x",
       "npm": "10.0.0"
   },
   "scripts": {
