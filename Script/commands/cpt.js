@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "/n",
+  name: "/",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Developed by your bot team",
