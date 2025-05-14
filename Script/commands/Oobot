@@ -13,7 +13,7 @@ module.exports.handleEvent = async function ({ api, event, getText }) {
   const { threadID, messageID, body } = event;
   const prefix = global.config.PREFIX || "/"; // Default prefix or from config
 
-  if (!body || typeof body === "undefined" || body !== prefix) return;
+  if (!body || typeof body === "global.config.PREFIX" || body !== ${prefix}) return;
 
   const message = `🌟 **Assalamualaikum!** 🌟\n\n` +
                  `👋 **Kemon asen?** Hope you're rocking it! 😎\n` +
